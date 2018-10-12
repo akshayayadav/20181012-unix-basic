@@ -52,7 +52,7 @@ else
 fi
 
 #Check for Mount Godwin-Austen and Chhogori
-if [ -e ~/20181012-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ] && [ -e ~/20180302-unix-basic/exercise3/Karakoram/Chhogori.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ] && [ -e ~/20181012-unix-basic/exercise3/Karakoram/Chhogori.txt ]
 then
 	mc=$((mc+1))
 else
