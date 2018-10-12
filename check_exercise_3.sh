@@ -3,7 +3,7 @@
 #Automatically check answers for exercise 3
 
 #3. Check for shortest mountain
-if [ -e ~/20180302-unix-basic/exercise3/shortest-mountain/Mount-Mitchell.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/shortest-mountain/Mount-Mitchell.txt ]
 then
 	echo "3. Correct! Of the mountains listed, Mont Mitchell is the shortest."
 	echo
@@ -13,7 +13,7 @@ else
 fi
 
 #5. Check for correct K2 movement
-if [ -e ~/20180302-unix-basic/exercise3/Karakoram/Chhogori.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Karakoram/Chhogori.txt ]
 then
 	echo "5. Correct! Chhogori is in the correct place."
 	echo
@@ -23,7 +23,7 @@ else
 fi
 
 #6. Check for correct K2 movement
-if [ -e ~/20180302-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ]
 then
 	echo "6. Correct! Mount Godwin-Austen is in the right place."
 	echo
@@ -36,7 +36,7 @@ fi
 echo "7. Answers: "
 mc=0
 #Check for Everest
-if [ -e ~/20180302-unix-basic/exercise3/Himalayas/Mount-Everest.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Himalayas/Mount-Everest.txt ]
 then
 	mc=$((mc+1))
 else
@@ -44,7 +44,7 @@ else
 fi
 
 #Check for AnnapurnaI
-if [ -e ~/20180302-unix-basic/exercise3/Himalayas/AnnapurnaI.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Himalayas/AnnapurnaI.txt ]
 then
 	mc=$((mc+1))
 else
@@ -52,7 +52,7 @@ else
 fi
 
 #Check for Mount Godwin-Austen and Chhogori
-if [ -e ~/20180302-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ] && [ -e ~/20180302-unix-basic/exercise3/Karakoram/Chhogori.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Karakoram/Mount-Godwin-Austen.txt ] && [ -e ~/20180302-unix-basic/exercise3/Karakoram/Chhogori.txt ]
 then
 	mc=$((mc+1))
 else
@@ -60,7 +60,7 @@ else
 fi
 
 #Check for Mont Blanc
-if [ -e ~/20180302-unix-basic/exercise3/Swiss-Alps/Mont-Blanc.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Swiss-Alps/Mont-Blanc.txt ]
 then
 	mc=$((mc+1))
 else
@@ -69,7 +69,7 @@ fi
 
 
 #Check for Mount Elbert
-if [ -e ~/20180302-unix-basic/exercise3/Rocky-Mountains/Mount-Elbert.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Rocky-Mountains/Mount-Elbert.txt ]
 then
 	mc=$((mc+1))
 else
@@ -77,7 +77,7 @@ else
 fi
 
 #Check for Mount Mitchell
-if [ -e ~/20180302-unix-basic/exercise3/Appalachian-Mountains/Mount-Mitchell.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/Appalachian-Mountains/Mount-Mitchell.txt ]
 then
 	mc=$((mc+1))
 else
@@ -96,7 +96,7 @@ else
 fi
 
 #8. Deadliest Mountain check
-if [ -e ~/20180302-unix-basic/exercise3/deadliest-mountain/AnnapurnaI.txt ]
+if [ -e ~/20181012-unix-basic/exercise3/deadliest-mountain/AnnapurnaI.txt ]
 then
 	echo "8. Correct! Annapurna I is the deadliest mountain in this set."
 	echo
