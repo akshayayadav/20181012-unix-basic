@@ -3,11 +3,11 @@
 check=0
 
 #Check if Mario.txt is in the correct place
-if [ -e ~/20180302-unix-basic/exercise4/World5/Level5-4/Another-Castle/Mario.txt ]; then
+if [ -e ~/20181012-unix-basic/exercise4/World5/Level5-4/Another-Castle/Mario.txt ]; then
 	#Check if Axe.txt exists
-if [ -e ~/20180302-unix-basic/exercise4/World5/Level5-4/Another-Castle/Axe.txt ]; then
+if [ -e ~/20181012-unix-basic/exercise4/World5/Level5-4/Another-Castle/Axe.txt ]; then
 	#Check if Bridge.txt is gone
-	if [ -e ~/20180302-unix-basic/exercise4/World5/Level5-4/Another-Castle/Bridge.txt ]; then
+	if [ -e ~/20181012-unix-basic/exercise4/World5/Level5-4/Another-Castle/Bridge.txt ]; then
 		echo "The Bridge is still here!"
 	else
 		#Delete Bowser.txt only if Axe.txt exists AND Bridge.txt is gone
